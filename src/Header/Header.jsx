@@ -47,10 +47,10 @@ const Header = () => {
             {/* Call-to-Action Button */}
             <div className="hidden md:flex items-center space-x-3">
               <a
-                href="/quote"
+                href="tel:+916397385558"
                 className="py-2 px-3 bg-orange-500 text-white font-semibold rounded-lg shadow-md hover:bg-orange-600 transition duration-300"
               >
-                Free Quote
+                Call Now
               </a>
             </div>
           </div>
