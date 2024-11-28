@@ -8,11 +8,12 @@ import PageForCarrer from "./Page/PageForCarrer";
 function App() {
   return (
     <>
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<Home />} />
-      </Routes>
+      </Routes> */}
       <Layout>
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<PageForAbout />} />
           <Route path="/carrer" element={<PageForCarrer />} />
         </Routes>

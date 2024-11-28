@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div className="flex flex-col">
       {/* Header Section */}
-      <Header />
+      {/* <Header /> */}
       
       {/* Hero Section */}
       <div
@@ -48,7 +48,7 @@ const Home = () => {
       <NewsPost />
       
       {/* Footer Section */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
